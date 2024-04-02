@@ -1,0 +1,117 @@
+@media screen and (max-width: 1300px){
+    .services .service_single_box {
+        width: auto;
+    }
+}
+@media screen and (max-width: 991px) {
+    .hero .hero-title{
+        margin-top: 0;
+    }
+    .hero_cta1,
+    .hero_cta2,
+    .cta_main .cta_wrap .cta_img{
+        display: none;
+    }
+    .counter_wrapper .counter_item.line::before{
+        display: none;
+    }
+    .trusted .trusted_detail{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .trusted .trusted_box_block {
+       flex-direction: column;
+    }
+    .trusted .trusted_box_block .trusted_box_block_right {
+        margin-top: 0;
+        
+    }    
+    .cta_main .cta_wrap {
+        padding: 4rem ;
+    }
+    .cta_main .cta_wrap .cta_text {
+        margin-bottom: 0;
+    }
+
+}
+@media screen and (max-width: 767px) {   
+    .counter_wrapper .counter_item.line::before{
+        display: none;
+    }
+    .trusted .trusted_detail{
+       align-items: center;
+    }
+    .trusted .trused_title {
+        font-size: 2.1rem;
+        text-align: center;
+        max-width: 100%;
+    }
+    .trusted .trusted_para {
+        font-size: 16px;
+        max-width: auto;
+        text-align: center;
+    }
+    .trusted .h-70 {
+        height: 30px;
+    }
+    .trusted .trusted_box_block {
+        align-items: center;
+        margin-top: 50px;
+    }
+    .trusted .trusted_box_block .trusted_box_block_right {
+        margin-bottom: 1rem;
+        
+    }  
+    .reviews .ds_reviews_wrap {
+       flex-direction: column;
+    }
+    .reviews .review_wrapper .review_title_wrap{
+        justify-content: center;
+    }
+    .reviews .arrow-buttons button,
+    .services .arrow-buttons button{
+        display: none;
+    }
+    .reviews .ds_reviews_wrap .ds_reviews_overall {
+       align-items: center;
+    }
+    .reviews .ds_reviews_wrap.mt-5{
+        margin-top: 10px !important;
+    }
+    .steps .steps_wrap {
+        flex-direction: column;
+    }
+    .steps .steps_box .time_line_dot {
+        display: none;
+    }
+    .steps .steps_box .steps_icon {
+        border-radius: 1.1rem;
+        width: 3.8rem;
+        height: 3.8rem;
+    }
+    .services h2{
+        font-size: 2rem;
+    }
+    .faq_container {
+        flex-direction: column;
+    }
+    .faq .faq_cta {
+       width: 100%;
+       max-width: 100%;
+    }
+    .faq .faq_cta .connect_btn {
+        padding: 20px 50px;
+        background-color: #4e43df;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 500;
+        border-radius: 50px;
+    }
+    .content .content_main_box {
+        flex-direction: column;
+    }
+    .content .content_main_box .content_block {
+        flex-direction: column;
+    }
+}
